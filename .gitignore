@@ -1,0 +1,18 @@
+# Cartella dati
+data/
+
+# Dati meteo (anche se fuori dalla cartella data)
+*.nc
+*.grib
+*.grib2
+*.ctl
+*.idx
+*.bin
+
+# Ambiente virtuale e log
+venv/
+__pycache__/
+*.pyc
+
+# Risultati temporanei o esportazioni
+*.log
