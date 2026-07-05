@@ -59,6 +59,14 @@ run gfs_dual_player.gs
 
 ```
 
+## Prerequisites & Dependencies
+To successfully run this software, ensure you have the following:
+
+* **GrADS (Grid Analysis and Display System):** The core software for data analysis and visualization.
+* **Support Files:**
+    * **cbarn.gs:** This script is required to display the colorbar on your plots. Ensure `cbarn.gs` is located in your GrADS script directory (usually in the `lib` folder of your installation or in your working directory).
+* **NetCDF Support:** Ensure your GrADS installation is compiled with NetCDF support to read the `.nc` files correctly.
+
 ## Technical Notes
 
 The `gfs_dual_player.gs` script is optimized for smooth, interactive exploration:
