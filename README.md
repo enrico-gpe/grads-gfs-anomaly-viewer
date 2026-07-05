@@ -40,6 +40,8 @@ Due to GitHub's file size limits, this file is not included in the repository.
 You can download the necessary data from the NOAA PSL Thredds catalog:
 [NOAA NCEP Reanalysis LTMs - Pressure Levels](https://psl.noaa.gov/thredds/catalog/Datasets/ncep.reanalysis2/Monthlies/LTMs/Dailies/pressure/catalog.html)
 
+*Note: The software is configured to process the European sector.*
+
 
 Execute the Python script to download the latest GFS data:
 
