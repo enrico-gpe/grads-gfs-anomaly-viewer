@@ -31,6 +31,14 @@ pip install -r requirements.txt
 
 ### 2. Downloading Data
 
+## Dataset & Data Requirements
+To run the diagnostics, you need the long-term mean (LTM) geopotential height data (1981-2010). 
+Due to GitHub's file size limits, this file is not included in the repository. 
+
+You can download the necessary data from the NOAA PSL Thredds catalog:
+[NOAA NCEP Reanalysis LTMs - Pressure Levels](https://psl.noaa.gov/thredds/catalog/Datasets/ncep.reanalysis2/Monthlies/LTMs/Dailies/pressure/catalog.html)
+
+
 Execute the Python script to download the latest GFS data:
 
 ```bash
