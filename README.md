@@ -1,5 +1,5 @@
 # grads-gfs-diagnostics
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 An integrated system for meteorological data acquisition and diagnostics. This repository provides a complete toolset to automatically download GFS forecasts and perform interactive analysis of **500 hPa Geopotential Height** and **Climatological Anomalies** over the European area using GrADS.
 
 ## Diagnostic Visualization
@@ -86,3 +86,17 @@ The `gfs_dual_player.gs` script is optimized for smooth, interactive exploration
 ```
 
 ```
+## Author
+
+**Enrico Pozzi**
+* GitHub: [@enrico-gpe](https://github.com/enrico-gpe)
+* Bluesky: [@ericdreams760.bsky.social](https://bsky.app/profile/ericdreams760.bsky.social)
+
+## License
+
+Copyright (c) 2026 Enrico Pozzi.
+
+This project is licensed under the **GNU General Public License v3.0** (GPLv3) - see the [LICENSE](LICENSE) file for details.
+
+### Why GPLv3?
+We transitioned to GPLv3 to ensure that **grads-gfs-anomaly-viewer** remains free and open-source software for the climate science and meteorological communities. Any modifications, improvements, or derivative works must also remain fully open and accessible under the same license terms.
